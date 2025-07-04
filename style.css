@@ -1,0 +1,80 @@
+:root {
+  --marrom-escuro: #5A3E36;
+  --verde-musgo: #60733F;
+  --bege-claro: #E6D8AD;
+  --branco-creme: #F9F7F1;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bege-claro);
+  color: var(--marrom-escuro);
+  margin: 0;
+  padding: 0 10px;
+}
+
+header {
+  background-image: url('images/banner-deeper-well.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--branco-creme);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.section-description {
+  padding: 20px;
+  background-color: var(--branco-creme);
+  border-radius: 8px;
+  margin: 0 auto 30px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(90, 62, 54, 0.2);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.btn-buy {
+  background: var(--verde-musgo);
+  color: var(--branco-creme);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.btn-buy:hover {
+  background: var(--marrom-escuro);
+  color: var(--bege-claro);
+}
+
+.section-video {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  background: var(--branco-creme);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(90, 62, 54, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--marrom-escuro);
+}
+
+.section-video h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-align: center;
+}
